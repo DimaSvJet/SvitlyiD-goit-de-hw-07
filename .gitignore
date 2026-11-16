@@ -1,0 +1,27 @@
+# Ігноруємо абсолютно все
+/*
+
+# Дозволяємо тільки потрібні папки
+!/dags/
+!/scripts/
+
+# Усередині папок теж ігноруємо все
+/dags/*
+/scripts/*
+
+# Основний DAG домашнього завдання
+!/dags/olympic_medals_dag.py
+
+# Скрипти підготовки та перевірки бази
+!/scripts/setup_database.py
+!/scripts/load_olympics.py
+!/scripts/check_table.py
+
+# Docker Compose
+!/docker-compose.yaml
+
+# Word-звіт
+!/describe.docx
+
+# Сам файл правил
+!/.gitignore
